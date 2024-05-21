@@ -1,0 +1,11 @@
+.navbar-subtitle {
+    font-size: 0.9rem;
+    font-weight: normal;
+    color: #6c757d;
+}
+
+.icon-link {
+    text-decoration: none;
+    margin-right: .5rem;
+    margin-top: .5rem;
+}
