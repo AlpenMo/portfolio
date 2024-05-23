@@ -9,3 +9,9 @@
     margin-right: .5rem;
     margin-top: .5rem;
 }
+
+.feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 0.75rem;
+}
