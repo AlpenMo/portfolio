@@ -1,0 +1,36 @@
+.navbar-subtitle {
+    font-size: 0.9rem;
+    font-weight: normal;
+    color: #6c757d;
+}
+
+.icon-link {
+    text-decoration: none;
+    margin-right: .5rem;
+    margin-top: .5rem;
+}
+
+.feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 0.75rem;
+}
+
+.custom-button {
+    background-color: #1A5C71;
+    color: white;
+}
+
+.resume-header {
+    color: #1A5C71;
+}
+
+.carousel-control-prev-icon {
+    width: 100px;
+    transform: translateX(77%) translateY(50%);
+  }
+
+  .carousel-control-next-icon {
+    width: 100px;
+    transform: translateX(-77%) translateY(50%);
+  }
