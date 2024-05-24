@@ -34,3 +34,7 @@
     width: 100px;
     transform: translateX(-77%) translateY(50%);
   }
+
+  .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+  }
