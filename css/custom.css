@@ -10,6 +10,16 @@
     margin-top: .5rem;
 }
 
+.text-link {
+    text-decoration: none;
+    color: currentColor;
+    border-bottom: 1px solid currentColor;
+}
+
+.text-link:hover {
+    border-bottom: none;
+}
+
 .feature-icon {
     width: 4rem;
     height: 4rem;
@@ -23,6 +33,25 @@
 
 .resume-header {
     color: #1A5C71;
+}
+
+.eyebrow {
+    margin-bottom: 0.5rem;
+    color: #717E83;
+}
+
+.title {
+    margin-top: 0;
+    color: #1A5C71;
+}
+
+.subtitle {
+    color: #703AA3E3;
+}
+
+.callout-box {
+    background-color: #9B51E014;
+    padding: 20px;
 }
 
 .carousel-control-prev-icon {

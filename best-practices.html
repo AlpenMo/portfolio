@@ -42,7 +42,73 @@
   </nav>
 
   <!-- Best Practices main body content -->
-  <h1>BEST PRACTICES</h1>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 offset-md-2 mt-5 mb-3">
+        <h1>Best Practices</h1>
+        <p>The following document outlines guidance for how to integrate information security best practices into the Design & Architecture stage of the <a href="https://en.wikipedia.org/wiki/Systems_development_life_cycle" class="text-link">Software Development Lifecycle.</a></p>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-md-2 border-top">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-8 offset-md-2 mt-5">
+        <p class="eyebrow">ENGINEERING REQUIREMENTS</p>
+        <h2 class="title">Secure Design & Architecture</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-8 offset-md-2 mt-2">
+        <p class="fs-5">Before you start building your application or service, take a moment to make sure you're building security into the design.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-8 offset-md-2">
+        <p>Review resources for development and engineering teams, including secure deployment guidelines and reference material, known vulnerabilities to mitigate, application hosting requirements, and secure development & change management information before you begin coding.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-8 offset-md-2">
+        <h3 class="subtitle fs-2">Requirements</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-8 offset-md-2 callout-box">
+        <p><strong>Begin threat modeling.</strong> Consider potential threats to and weak spots in your application early so you can identify vulnerabilities and incorporate appropriate mitigations. A well-done threat model will force you to think like an attacker; you’ll identify your application’s most valuable assets, analyze how an attacker might attempt to gain access to those assets, and then decide how to best secure your application. For more detail on how to incorporate threat modeling in your development lifecycle, see the <a href="https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html" class="text-link">Open Web Application Security Project (OWASP) Threat Modeling cheatsheet.</a></p>
+      </div>
+    </div>
+    <div class="row mt-3">
+      <div class="col-md-8 offset-md-2 callout-box">
+        <p><strong>Avoid common security issues.</strong> Thwart the majority of potential attackers by developing your application to protect against the most popular vectors of attack. Take a security training course on how to remediate and prevent common security vulnerabilities. Also check out <a href="https://github.com/OWASP/CheatSheetSeries/tree/master/cheatsheets" class="text-link">OWASP’s library of cheatsheets</a> for more guidance on common security issues like cross-site scripting and SQL injection.</p>
+      </div>
+    </div>
+    <div class="row mt-3">
+      <div class="col-md-8 offset-md-2 callout-box">
+        <p><strong>Look for teams to partner with and understand their security requirements.</strong> You may need to work with other departments to accomplish your goals, and their teams may have additional security requirements beyond our recommendations. Reach out to partner teams early in your design process to understand their requirements and incorporate them into your application or system.</p>
+      </div>
+    </div>
+    <div class="row mt-3">
+      <div class="col-md-8 offset-md-2 callout-box">
+        <p><strong>Know the risks of what you use before you use it.</strong> If there's a software or service that isn't currently vetted and you'd like to bring it in, consider a few details before you start. Is that software well supported by an active company or development community? Is it so new that you're pioneering? Does it leverage servers where our company has no visibility into what's happening with our data on the other end? These are decisions in the hands of each developer and architect.</p>
+      </div>
+    </div>
+    <div class="row mt-3">
+      <div class="col-md-8 offset-md-2 callout-box">
+        <p><strong>Properly handle and protect sensitive data.</strong> Every application interacts with sensitive data in some way, and it’s your responsibility to ensure your application properly handles and protects this data. Learn how to build secure information handling requirements into your application or system.</p>
+      </div>
+    </div>
+    <div class="row mt-3">
+      <div class="col-md-8 offset-md-2 callout-box">
+        <p><strong>Define your access control model.</strong> Implement authorization controls to prevent unnecessary or accidental access to systems. Create roles like reader, editor, or administrator to control access levels to your application, and always follow the principle of least privilege when granting access.</p>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-md-2 mt-3 mb-4 border-top">
+      </div>
+    </div>
+  </div>
 
   <!-- Footer -->
   <footer class="mt-auto">
